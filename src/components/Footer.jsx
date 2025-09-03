@@ -18,7 +18,7 @@ const Footer = () => {
         <p
           data-aos="fade-up"
           data-aos-duration="1000"
-          className="lg:text-lg sm:text-sm xs:text-xs text-center mt-6 font-medium xl:px-60 lg:px-30 sm:px-12 xs:px-15 opacity-70">
+          className="lg:text-lg xl:text-lg md:text-lg sm:text-sm text-sm text-center mt-6 font-medium xl:px-60 lg:px-30 sm:px-12 px-8 opacity-70">
           Temukan pusat property/arsitektur inovatif di Indonesia. Di mana
           modernitas terbentuk. Studio kami mendefinisikan ulang arsitektur
           melalui kreativitas dan keunggulan desain.
@@ -26,7 +26,7 @@ const Footer = () => {
 
         <div className="mt-10 flex flex-col justify-between items-center px-4 lg:flex-row lg:px-22">
           <ul
-            className="nav-links flex items-center gap-8 "
+            className="nav-links flex flex-col items-center gap-4 md:flex-row  lg:flex-row lg:gap-8"
             data-aos="fade-up"
             data-aos-duration="1000">
             <li>
