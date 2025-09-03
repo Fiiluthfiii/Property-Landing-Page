@@ -1,4 +1,5 @@
 import { listProperty, listTeam, listTestimoni } from "./data";
+import buildingImage from "./assets/building.png";
 
 function App() {
   return (
@@ -6,8 +7,8 @@ function App() {
       {/* === HERO SECTION === */}
       <div
         className="relative w-full h-screen bg-cover bg-center"
-        style={{ backgroundImage: `url('/src/assets/building.png')` }}>
-        <div className="absolute inset-0 bg-white/10 z-10"></div>
+        style={{ backgroundImage: `url(${buildingImage})` }}>
+        <div className="absolute inset-0 z-10"></div>
 
         <div className="relative z-20 flex flex-col items-center justify-center h-full text-white text-center p-4 animate__animated animate__fadeInDown animate__delay-4s">
           <a
@@ -42,7 +43,7 @@ function App() {
             Plihan daftar terbaik untuk anda
           </p>
           <h1
-            className="text-3xl font-semibold text-center mb-10 text-[#F97A00]"
+            className="xl:text-3xl lg:text-3xl md:text-3xl sm:text-3xl text-2xl font-semibold text-center mb-10 text-[#F97A00]"
             data-aos="fade-up"
             data-aos-duration="1000">
             Daftar Rumah/Apartemen Pilihan
@@ -112,7 +113,7 @@ function App() {
       {/* === PROPERTI === */}
 
       {/* === TESTIMONI === */}
-      <div className="testimoni pt-25 px-15 pb-10">
+      <div className="testimoni pt-25 px-4 pb-10 sm:px-8 md:px-12 lg:px-16">
         <div
           className=" flex gap-2 justify-center"
           data-aos="fade-up"
@@ -126,7 +127,7 @@ function App() {
         </div>
 
         <h1
-          className="text-7xl  font-bold text-center mt-1"
+          className="text-5xl md:text-6xl lg:text-7xl xl:text-7xl font-bold text-center mt-1"
           data-aos="fade-up"
           data-aos-duration="1000">
           TESTIMONI
@@ -176,7 +177,7 @@ function App() {
         </div>
 
         <h1
-          className="text-7xl font-bold text-center mt-1 text-[#F97A00]"
+          className="xl:text-7xl lg:text-7xl md:text-7xl sm:text-6xl text-5xl font-bold text-center mt-1 text-[#F97A00]"
           data-aos="fade-up"
           data-aos-duration="1000">
           TEAM KAMI
