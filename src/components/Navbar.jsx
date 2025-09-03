@@ -10,7 +10,9 @@ const Navbar = () => {
   return (
     <div className="navbar flex justify-between items-center py-3 px-10 ">
       <div>
-        <h1 className="text-2xl font-bold text-[#F97A00]">Luthfi Studio</h1>
+        <h1 className="lg:text-2xl xl:text-2xl md:text-2xl sm:text-2xl text-xl font-bold text-[#F97A00]">
+          Luthfi Studio
+        </h1>
       </div>
 
       <div
